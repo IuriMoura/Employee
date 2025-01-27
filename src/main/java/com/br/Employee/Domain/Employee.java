@@ -26,5 +26,6 @@ public class Employee {
         this.first_name = request.first_name();
         this.last_name = request.last_name();
         this.email = request.email();
+        this.date_joined = LocalDate.now();
     }
 }

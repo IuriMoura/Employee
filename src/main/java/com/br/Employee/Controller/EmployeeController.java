@@ -30,6 +30,7 @@ public class EmployeeController {
     public ResponseEntity creatEmployee(@RequestBody RequestEmployee data){
         Employee employee = new Employee(data);
         repository.save(employee);
+        System.out.println(employee.getId());
         return ResponseEntity.ok().build();
     }
 }

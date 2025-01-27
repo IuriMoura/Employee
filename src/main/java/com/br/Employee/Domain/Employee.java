@@ -28,4 +28,26 @@ public class Employee {
         this.email = request.email();
         this.date_joined = LocalDate.now();
     }
+    public Employee(){
+    }
+
+    public String getId() {
+        return this.id;
+    }
+
+    public LocalDate getDate_joined() {
+        return date_joined;
+    }
+
+    public String getFirst_name() {
+        return first_name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getLast_name() {
+        return last_name;
+    }
 }

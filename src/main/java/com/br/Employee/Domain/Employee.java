@@ -1,0 +1,24 @@
+package com.br.Employee.Domain;
+
+import jakarta.persistence.*;
+import lombok.*;
+
+import java.time.LocalDate;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@Entity(name="employee")
+@Table(name="employee")
+@EqualsAndHashCode(of = "id")
+public class Employee {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
+    private String id;
+
+    private String first_name;
+    private String last_name;
+    private String email;
+    private LocalDate date_joined;
+}

@@ -1,0 +1,7 @@
+CREATE TABLE employee(
+    id TEXT PRIMARY KEY UNIQUE NOT NULL,
+    first_name TEXT NOT NULL,
+    last_name TEXT NOT NULL,
+    email TEXT NOT NULL,
+    date_joined DATE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

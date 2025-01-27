@@ -21,4 +21,10 @@ public class Employee {
     private String last_name;
     private String email;
     private LocalDate date_joined;
+
+    public Employee(RequestEmployee request){
+        this.first_name = request.first_name();
+        this.last_name = request.last_name();
+        this.email = request.email();
+    }
 }

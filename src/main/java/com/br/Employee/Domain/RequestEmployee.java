@@ -1,4 +1,4 @@
 package com.br.Employee.Domain;
 
-public record RequestEmployee(String f_name, String l_name, String email) {
+public record RequestEmployee(String first_name, String last_name, String email) {
 }

@@ -11,6 +11,6 @@ public class EmployeeController {
 
     @GetMapping
     public ResponseEntity getAllEmployee(){
-        return ResponseEntity.ok("ok");
+        return ResponseEntity.ok("OK");
     }
 }

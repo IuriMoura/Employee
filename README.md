@@ -9,5 +9,7 @@ Criação de uma tabela employee no postgress com:
   date_joined.
 
 Criação de métodos Get para listar todos os funcionários ou por id.
+
 Criação do método Post para adicionar novos funcionários.
+
 Criação do método Put para atualizar dados de funcionários já adicionados.
